@@ -238,17 +238,20 @@
                 </div>
             </div>
         </section>
-
+        <h2 class="text-2xl md:text-2xl font-bold mb-6">数据集详情</h2>
         <section id="benchmark" class="py-16">
-            <h2 class="section-title">基准测试</h2>
+            
             <div class="max-w-4xl mx-auto text-lg text-slate-700 space-y-6">
-                <p>我们基于 Wildlife2024 设立了多项基准测试任务，包括：</p>
+                <p>我们的数据集Wildlife2024包括：</p>
                 <ul class="list-disc list-inside space-y-2 pl-4">
+                    <li><strong>训练集</strong>: 包含1450序列，总帧数超过5.1M</li>
+                    <li><strong>测试集</strong>: 包含110序列，总帧数超过100k</li>
+                    <!-- <li><strong>动物行为识别</strong>: (针对特定子集) 识别视频中动物的关键行为，如奔跑、进食、警戒等。</li>
                     <li><strong>单目标跟踪 (SOT)</strong>: 评估在复杂场景下对单个动物目标的持续跟踪能力。</li>
                     <li><strong>多目标跟踪 (MOT)</strong>: 评估同时跟踪多个动物目标并保持其身份一致性的能力。</li>
-                    <li><strong>动物行为识别</strong>: (针对特定子集) 识别视频中动物的关键行为，如奔跑、进食、警戒等。</li>
+                    <li><strong>动物行为识别</strong>: (针对特定子集) 识别视频中动物的关键行为，如奔跑、进食、警戒等。</li> -->
                 </ul>
-                <p>我们提供了标准的评估协议和代码，方便研究者复现和提交结果。详细的排行榜和提交指南请访问我们的 <a href="https://github.com/your-repo/Wildlife2024-eval" target="_blank" class="text-blue-600 hover:underline">基准测试评估仓库</a>。</p>
+                <p>我们的基准测试集应用于单目标跟踪 (SOT)，评估在复杂场景下对单个动物目标的持续跟踪能力。提供了标准的评估协议和代码，方便研究者复现和提交结果。详细的排行榜和提交指南请访问我们的 <a href="https://github.com/your-repo/Wildlife2024-eval" target="_blank" class="text-blue-600 hover:underline">基准测试评估仓库</a>。</p>
                 <div class="overflow-x-auto bg-white p-4 rounded-lg shadow">
                     <h3 class="text-xl font-semibold mb-4 text-slate-700">MOTA 排行榜 (示例)</h3>
                     <table class="min-w-full divide-y divide-slate-200">
