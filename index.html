@@ -107,19 +107,19 @@
     <header class="hero-bg text-white relative">
         <div class="absolute inset-0 bg-black opacity-50"></div>
         <div class="container mx-auto px-6 py-32 text-center relative z-10">
-            <h1 class="text-5xl md:text-6xl font-bold mb-6">野生动物追踪模拟基准 (Wildlife2024)</h1>
+            <h1 class="text-5xl md:text-6xl font-bold mb-6">Wildlife Tracking Dataset (Wildlife2024)</h1>
             <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-                一个大规模、多样化的野生动物视频数据集，专为推动目标跟踪等计算机视觉研究而设计。
+                A large-scale, diverse wildlife tracking dataset, specifically designed to advance computer vision research in object tracking and related tasks.
             </p>
             <div>
-                <a href="#download" class="button-primary text-lg mr-4">获取数据集</a>
-                <a href="#benchmark" class="button-secondary text-lg">查看基准</a>
+                <a href="#download" class="button-primary text-lg mr-4">Download the dataset</a>
+                <a href="#benchmark" class="button-secondary text-lg">See evaluation results</a>
             </div>
         </div>
     </header>
 
     <main class="container mx-auto px-6 py-16">
-        <h2 class="text-2xl md:text-2xl font-bold mb-6">关于 Wildlife2024</h2>
+        <h2 class="text-2xl md:text-2xl font-bold mb-6">About Wildlife2024</h2>
         <section id="about" class="py-16">
             
             <div class="grid md:grid-cols-2 gap-12 items-center">
@@ -127,9 +127,17 @@
                     <img src="animals.png" alt="数据集概览图" class="rounded-lg shadow-lg">
                 </div>
                 <div class="text-lg text-slate-700 space-y-4">
-                    <p>Wildlife2024旨在为研究人员提供一个全面且具有挑战性的平台，用于开发和评估野生动物视觉分析算法。我们的目标是促进对动物行为的理解、改进野生动物保护技术，并推动计算机视觉在生态学领域的应用。</p>
-                    <p>数据集包含了在多种环境下拍摄的多种野生动物的视频片段，涵盖了不同的光照条件、遮挡情况和动物行为。</p>
-                    <p>我们相信 Wildlife2024 将成为推动相关领域研究的重要资源。</p>
+                    <p>Wildlife2024 aims to provide researchers with a comprehensive and challenging platform for developing and evaluating wildlife visual analysis algorithms. Our goal is to advance the understanding of animal behavior, enhance wildlife conservation technologies, and promote the application of computer vision in ecological studies.</p>
+                    <p>The dataset comprises video clips of diverse wildlife species captured across multiple environments, encompassing varying lighting conditions, occlusion scenarios, and animal behaviors.</p>
+                    <p>We believe Wildlife2024 will serve as a pivotal resource for advancing research in related fields.</p>
+                    <p>Our Wildlife2024 dataset comprises:</p>
+                    <ul class="list-disc list-inside space-y-2 pl-4">
+                        <li><strong>training dataset</strong>: Contains 1,450 sequences with over 5.1 million total frames.</li>
+                        <li><strong>testing dataset</strong>: Contains 110 sequences with over 100,000 total frames.</li>
+                        <li><strong>animal species</strong>: The dataset covers 8 animal classes: Birds, Fish, Amphibians, Mollusks, Mammals, Arthropods, Reptiles, and Coelenterates.</li>
+                        <li><strong>environments</strong>: The dataset encompasses 10 wild environments types: grasslands, forests, freshwater systems, oceans, deserts, wetlands, mountainous regions, polar regions, caves, and meadows.</li>
+                        <li><strong>Challenge attributes</strong>: The dataset encompasses 13 challenge attributes: illumination variations (IV), out-of-plane rotations (OPR), in-plane rotations (IPR), deformation (DEF), fast motion (FM), scale variations (SV), camera motion (CM), out-of-view (OV), partial occlusion (POC), full occlusion (FOC), low resolution (LR), similar objects (SO), and motion blur (MB).</li>
+                    </ul>
                 </div>
             </div>
         </section>
