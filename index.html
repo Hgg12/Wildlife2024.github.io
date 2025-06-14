@@ -1364,27 +1364,29 @@
             </div>
         </section>
 
-        <h2 class="text-2xl md:text-2xl font-bold mb-6">数据集详情</h2>
+        <h2 class="text-2xl md:text-2xl font-bold mb-6">Dataset details</h2>
         <section id="benchmark" class="py-16">
             
             <div class="max-w-4xl mx-auto text-lg text-slate-700 space-y-6">
-                <p>我们的数据集Wildlife2024包括：</p>
+                <p>Our dataset Wildlife2024 includes:</p>
                 <ul class="list-disc list-inside space-y-2 pl-4">
-                    <li><strong>训练集</strong>: 包含1450序列，总帧数超过5.1M</li>
-                    <li><strong>测试集</strong>: 包含110序列，总帧数超过100k</li>
+                    <li><strong>Training set</strong>: Contains 1,450 sequences, with a total of over 5.1M frames.</li>
+                    <li><strong>Test set</strong>: Contains 110 sequences, with a total of over 100k frames.</li>
                     <!-- <li><strong>动物行为识别</strong>: (针对特定子集) 识别视频中动物的关键行为，如奔跑、进食、警戒等。</li>
                     <li><strong>单目标跟踪 (SOT)</strong>: 评估在复杂场景下对单个动物目标的持续跟踪能力。</li>
                     <li><strong>多目标跟踪 (MOT)</strong>: 评估同时跟踪多个动物目标并保持其身份一致性的能力。</li>
                     <li><strong>动物行为识别</strong>: (针对特定子集) 识别视频中动物的关键行为，如奔跑、进食、警戒等。</li> -->
                 </ul>
-                <p>我们的基准测试集应用于单目标跟踪 (SOT)，评估在复杂场景下对单个动物目标的持续跟踪能力。提供了标准的评估协议和代码，方便研究者复现和提交结果。详细的排行榜和提交指南请访问我们的 <a href="https://github.com/your-repo/Wildlife2024-eval" target="_blank" class="text-blue-600 hover:underline">基准测试评估仓库</a>。</p>
+                <p>Our benchmark dataset is designed for single object tracking (SOT), evaluating the ability to consistently track individual animal targets in complex scenarios. It provides standardized evaluation protocols and code.</p>
+                <p> <a href="https://drive.google.com/file/d/1wAwtk9cBqQaVAZsJdBlNh1Wxk2SYr0Am/view?usp=sharing" target="_blank" class="text-blue-600 hover:underline">Benchmark Evaluation Toolkit</a>.</p>
+                <p> <a href="https://drive.google.com/file/d/1_AubAPvzejgvTTtNlZXC1JFmAeZItDK2/view?usp=sharing" target="_blank" class="text-blue-600 hover:underline">Tracking Results</a>.</p>
                 <div class="overflow-x-auto bg-white p-4 rounded-lg shadow">
-                    <h3 class="text-xl font-semibold mb-4 text-slate-700">单目标跟踪器测试</h3>
+                    <h3 class="text-xl font-semibold mb-4 text-slate-700">Single Object Tracker Testing</h3>
                     <table class="min-w-full divide-y divide-slate-200">
                         <thead class="bg-slate-50">
                             <tr>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">跟踪器</th>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">来源</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">Tracker</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">Source</th>
                                 <th class="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">AUC</th>
                                 <th class="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">Norm.Prec.</th>
                                 <th class="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">Prec.</th>
